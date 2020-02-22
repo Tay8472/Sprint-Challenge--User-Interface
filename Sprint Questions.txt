@@ -1,0 +1,19 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic elements consist of tags or elements giving sections of your website meaning for both better navigation, but also search engine optimization. Examples would be creating a section to define your header, specific topic areas by section, navigation sections, footers, etc.
+
+Name two big differences between display: block; and display: inline;.
+
+Block elements create elements that start on different lines and take up as much space or width that is available. Inline elements don't start on new lines and only take up necessary width instead of full width.
+
+What are the 4 areas of the box model?
+
+Margin, Border, Padding, Content -- in that order.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+The align-items property works on the cross axis.
+
+Explain why git is valuable to a team of developers.
+
+Git is extremely valuable for developers to collaborate on one project simultaneously without interfearing with the same project file. Instead, developers can create their own copies of the project and work on their portions independantly. People can collaborate and merge their work when completing a project to finalize a new version of their product.
