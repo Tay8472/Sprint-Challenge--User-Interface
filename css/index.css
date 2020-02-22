@@ -94,6 +94,73 @@ p {
     color: maroon;
 }
 
+.about-page-banner {
+    margin: 10px 0 25px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.container .about {
+    margin: 0 10px 20px 10px;
+}
+
+.container1-columns{
+    margin: 25px 0;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1-columns h3 {
+    font-weight: bold;
+}
+
+.container1-columns .section1 {
+    margin: 25px 20px 25px 10px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1-columns .section2 {
+    margin: 25px 10px 25px 25px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1-columns a {
+    margin: 20px 0 10px 0;
+    text-decoration: none;
+    padding: 10px;
+    width: 35%;
+    color: grey;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.container1-columns a:hover {
+    color: white;
+    background-color: maroon;
+    border: 2px solid white;
+}
+
+.container1-columns img {
+    margin-bottom: 20px;
+}
+
+.container .conclusion {
+    margin-bottom: 25px;
+}
+
+.container h2 {
+    font-weight: bold;
+}
+
 .index-header {
     margin: 10px 0 25px 0;
     max-width: 100%;
