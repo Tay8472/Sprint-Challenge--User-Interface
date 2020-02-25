@@ -71,6 +71,102 @@ p {
     margin: 0 auto;
 }
 
+.nav1 {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 {
+    width: 800px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.4s;
+}
+
+.nav1 a:hover {
+    color: maroon;
+}
+
+.about-page-banner {
+    margin: 10px 0 25px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.container .about {
+    margin: 0 10px 20px 10px;
+}
+
+.container1-columns{
+    margin: 25px 0;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1-columns h3 {
+    font-weight: bold;
+}
+
+.container1-columns .section1 {
+    margin: 25px 20px 25px 10px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1-columns .section2 {
+    margin: 25px 10px 25px 25px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1-columns a {
+    margin: 20px 0 10px 0;
+    text-decoration: none;
+    padding: 10px;
+    width: 35%;
+    color: grey;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.container1-columns a:hover {
+    color: white;
+    background-color: maroon;
+    border: 2px solid white;
+}
+
+.container1-columns img {
+    margin-bottom: 20px;
+}
+
+.container .conclusion {
+    margin-bottom: 25px;
+}
+
+.container h2 {
+    font-weight: bold;
+}
+
+.index-header {
+    margin: 10px 0 25px 0;
+    max-width: 100%;
+    height: auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +200,106 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +338,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+footer nav a:hover {
+    color: maroon;
 }
